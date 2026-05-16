@@ -6,24 +6,21 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
-    "preview": "vite preview",
-    "export:html": "vite build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
     "vite": "latest",
     "vite-plugin-singlefile": "latest",
-    "typescript": "latest",
     "react": "latest",
     "react-dom": "latest",
     "framer-motion": "latest",
     "lucide-react": "latest",
-    "jspdf": "latest",
-    "tailwindcss": "latest",
-    "postcss": "latest",
-    "autoprefixer": "latest",
-    "clsx": "latest",
-    "tailwind-merge": "latest"
+    "jspdf": "latest"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "tailwindcss": "3.4.17",
+    "postcss": "8.4.49",
+    "autoprefixer": "10.4.20"
+  }
 }
